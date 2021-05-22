@@ -1,0 +1,48 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="All rights reserved"
+
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+
+[[mods]] #mandatory
+
+modId="stranded" #mandatory
+
+version="1.0-1.16.5" #mandatory
+
+displayName="Stranded" #mandatory
+
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+
+logoFile="examplemod.png" #optional
+
+credits="BelgieYT" #optional
+
+authors="BelgieYT" #optional
+
+description='''You wake up stranded on a island in the middle of a deep dangerous ocean, Can you escape before the water rises and takes you out! Complete quests and defeat the hostile creatures out there'''
+
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[36,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
